@@ -1,0 +1,126 @@
+/* Estilos básicos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7b8e5;
+}
+
+/* ------------------header--------------------- */
+.navbar {
+  background-color: #ed91d3 !important;
+}
+
+.dropdown-menu {
+  background-color: #ea8acf;
+}
+
+.dropdown-menu :hover {
+  background-color: #f3bae3;
+}
+
+header {
+  background-color: #ed91d3;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5%;
+}
+
+.logo img {
+  height: 60px;
+  width: 100px;
+}
+
+nav {
+  flex: 1;
+  display: flex;
+  justify-content: baseline;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-family: fantasy;
+  transition: color 0.3s;
+}
+
+/*-----------------main--------------------------*/
+.hero {
+  text-align: center;
+  width: 100%;
+  height: 300px;
+}
+
+.fadzine {
+  text-align: center;
+  width: 100%;
+  height: 300px;
+}
+
+.agrutarjeta {
+  text-align: center;
+  width: 100%;
+  height: 300px;
+}
+
+.fadzine a img {
+  width: 300px;
+  height: 200px;
+}
+
+/*-----------------proyectos--------------------------*/
+.galeria {
+  width: 100%;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*-----------------footer--------------------------*/
+footer {
+  background-color: #ea8acf;
+}
+
+
+/* Media queries para dispositivos muy pequeños */
+@media (max-width: 480px) {
+  .hero {
+    height: 200px;
+  }
+
+  .fadzine a img {
+    width: 100%;
+    height: auto;
+  }
+
+  .agrutarjeta {
+    padding: 10px;
+  }
+
+  .galeria {
+    grid-template-columns: 1fr;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+}
