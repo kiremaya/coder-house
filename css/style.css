@@ -101,7 +101,7 @@ footer {
 }
 
 
-/* Media queries para dispositivos muy pequeños */
+/* -----------------media-queries-------------------------*/
 @media (max-width: 480px) {
   .hero {
     height: 200px;
