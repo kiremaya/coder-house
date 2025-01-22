@@ -72,7 +72,7 @@ nav {
 
 
 
-/* Estilos específicos */
+
 .hero {
   width: 100%;
   background: linear-gradient(135deg, #f8d7e6, #fce4ec);
@@ -366,15 +366,15 @@ nav {
     }
   }
   .team {
-    background-color: #f4f4f4; // Fondo gris claro
-    padding: 50px 20px; // Espaciado interno
+    background-color: #f4f4f4; 
+    padding: 50px 20px; 
     display: flex;
     flex-direction: column;
     align-items: center;
   
     h2 {
       font-size: 2.5rem;
-      color: #333; // Texto oscuro
+      color: #333; 
       margin-bottom: 20px;
       text-align: center;
     }
@@ -383,28 +383,28 @@ nav {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 20px; // Espaciado entre tarjetas
+      gap: 20px; 
     }
   
     .card {
-      background-color: #fff; // Fondo blanco
+      background-color: #fff; 
       border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Sombra sutil
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
       padding: 20px;
-      max-width: 200px; // Ancho máximo de las tarjetas
+      max-width: 200px; 
       text-align: center;
       word-wrap: break-word;
       overflow-wrap: break-word;
   
       h3 {
         font-size: 1.2rem;
-        color: #333; // Texto oscuro
+        color: #333; 
         margin-bottom: 10px;
       }
   
       p {
         font-size: 1rem;
-        color: #555; // Texto ligeramente más claro
+        color: #555; 
       }
     }
   
@@ -412,7 +412,7 @@ nav {
       padding: 30px 10px;
   
       .card {
-        max-width: 150px; // Reduce el ancho en pantallas pequeñas
+        max-width: 150px; 
         padding: 15px;
       }
     }
@@ -427,7 +427,7 @@ nav {
     .careers-container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      /* Cuadros adaptativos */
+      
       gap: 20px;
       max-width: 1200px;
       margin: 0 auto;
@@ -443,7 +443,7 @@ nav {
 
       &:hover {
         transform: translateY(-5px);
-        /* Efecto al pasar el cursor */
+        
       }
 
       .career-title {
@@ -488,6 +488,10 @@ nav {
         line-height: 1.5;
       }
     }
+/* -----------------proyectos-------------------------*/
+ 
+
+
 
     /* -----------------cards-------------------------*/
     .cards-container {
@@ -629,7 +633,7 @@ nav {
       }
     }
 
-    /* Contenedor de tarjetas */
+   
     .apuntes-cards {
       display: flex;
       justify-content: center;
@@ -679,7 +683,7 @@ nav {
       }
     }
 
-    /* Botón "Ver todos" */
+    
     .ver-todos {
       margin-top: 30px;
 
@@ -702,27 +706,7 @@ nav {
     }
   }
 
-  /* -----------------media-queries-------------------------*/
-  @media (max-width: 480px) {
-  
-
-    .fadzine {
-      a {
-        img {
-          width: 100%;
-          height: auto;
-        }
-      }
-    }
-
-    .agrutarjeta {
-      padding: 10px;
-    }
-
-    .galeria {
-      grid-template-columns: 1fr;
-    }
-  }
+ 
 
   /* -----------------footer-------------------------*/
   .footer {
@@ -736,7 +720,7 @@ nav {
       justify-content: space-between;
       gap: 20px;
 
-      /* Sección de información principal */
+      
       .footer-info {
         flex: 1;
 
@@ -752,7 +736,7 @@ nav {
         }
       }
 
-      /* Enlaces rápidos */
+     
       .footer-links {
         flex: 1;
 
@@ -783,7 +767,7 @@ nav {
         }
       }
 
-      /* Redes sociales */
+      
       .footer-social {
         flex: 1;
         text-align: center;
@@ -818,7 +802,7 @@ nav {
       }
     }
 
-    /* Pie de página */
+    
     .footer-bottom {
       margin-top: 20px;
       text-align: center;

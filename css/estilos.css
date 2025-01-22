@@ -56,7 +56,6 @@ nav .nav-links a {
 }
 
 /*-----------------main--------------------------*/
-/* Estilos específicos */
 .hero {
   width: 100%;
   background: linear-gradient(135deg, #f8d7e6, #fce4ec);
@@ -365,7 +364,6 @@ nav .nav-links a {
 .careers-section .careers-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  /* Cuadros adaptativos */
   gap: 20px;
   max-width: 1200px;
   margin: 0 auto;
@@ -380,7 +378,6 @@ nav .nav-links a {
 }
 .careers-section .career-card:hover {
   transform: translateY(-5px);
-  /* Efecto al pasar el cursor */
 }
 .careers-section .career-card .career-title {
   font-size: 1.5rem;
@@ -403,6 +400,7 @@ nav .nav-links a {
   padding: 40px 20px;
   background: linear-gradient(135deg, #f8d7e6, #fce4ec);
   text-align: center;
+  /* -----------------proyectos-------------------------*/
   /* -----------------cards-------------------------*/
   /* -----------------agrutarjeta-------------------------*/
 }
@@ -525,8 +523,6 @@ nav .nav-links a {
   padding: 40px 20px;
   background: linear-gradient(135deg, #f8d7e6, #fce4ec);
   text-align: center;
-  /* Contenedor de tarjetas */
-  /* Botón "Ver todos" */
 }
 .apuntes-section .apuntes-header {
   margin-bottom: 30px;
@@ -602,34 +598,17 @@ nav .nav-links a {
   transform: scale(1.05);
 }
 
-/* -----------------media-queries-------------------------*/
-@media (max-width: 480px) {
-  .fadzine a img {
-    width: 100%;
-    height: auto;
-  }
-  .agrutarjeta {
-    padding: 10px;
-  }
-  .galeria {
-    grid-template-columns: 1fr;
-  }
-}
 /* -----------------footer-------------------------*/
 .footer {
   background: linear-gradient(135deg, #f8d7e6, #fce4ec);
   color: #34495e;
   padding: 40px 20px 20px;
-  /* Pie de página */
 }
 .footer .footer-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
-  /* Sección de información principal */
-  /* Enlaces rápidos */
-  /* Redes sociales */
 }
 .footer .footer-container .footer-info {
   flex: 1;
